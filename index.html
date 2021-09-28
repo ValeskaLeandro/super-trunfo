@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Super Trunfo!</title>
+</head>
+<body>
+    <section class="full">
+  <div class="container">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+          alt="">
+      <h1 class="page-title">SUPER TRUNFO - Overwatch</h1>
+      
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button> 
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button> <br>     
+    
+      <button onclick="proximaRodada()" id="btnProxima" disabled="true">Próxima Rodada</button> 
+      <button onclick="novoJogo()" id="btnNovoJogo" disabled="true">Novo Jogo!</button> 
+
+      <h2 class="sub-title">Sorteie uma carta e escolha seu MELHOR atributo para desafiar o oponente.</h2>
+      <p>Quem fizer 5 pontos primeiro ganha.</p>
+    
+      
+      <div id="placares">  
+      
+                
+    </div> 
+      <form id="form">          
+          <div id="wrapper">
+              
+              <div id="carta-jogador">
+                   
+              </div>
+              <div id="opcoes">
+          
+      </div>
+              <div>
+                  <div id="carta-maquina" >
+
+                  </div>
+              
+          </div>          
+      </form>
+      
+       
+       
+  </div>
+  <div id="resultadoRodada"></div>
+  <div id="resultado"></div>
+  <footer> 
+      
+        Valeska Leandro <br>
+        <a href="https://github.com/ValeskaLeandro" class="footer">GitHub</a> •
+        <a href="https://www.linkedin.com/in/valeska-leandro-b760a71b4/" class="footer">Linkedin</a>•
+        <a href="https://www.instagram.com/ValeskaLeandro/" class="footer">Instagram</a>
+  </footer>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

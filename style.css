@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+  height: 100%;
+  background-image: url('https://i.pinimg.com/originals/95/f9/fa/95f9fab2833f742259a1df861f688552.jpg');
+  background-color: #000000;  
+  background-position: center top;
+  background-repeat: no-repeat;
+ 
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.container img {
+  width: 150px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+h2.sub-title {
+  color: white;
+  margin-bottom: 0;
+}
+p {
+  color: rgba(253, 213, 105, 0.877);
+  margin-top: 0;
+}
+
+#opcoes h2 {
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 3px;
+}
+button {
+  width: 180px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#btnSortear, #btnJogar, #btnNovoJogo, #btnProxima {
+  padding: .8rem 1.5rem;  
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  margin: 10px ;
+  
+}
+
+#btnSortear:hover, #btnJogar:hover, 
+#btnNovoJogo:hover, #btnProxima:hover {
+  background-color: rgb(255, 204, 64);
+  cursor:pointer;
+  transition: .5s;
+  
+}
+
+#btnSortear:disabled, #btnJogar:disabled,
+#btnNovoJogo:disabled, #btnProxima:disabled {
+  background-color: rgba(253, 213, 105, 0.795);
+  cursor:initial;
+}
+
+
+#opcoes {  
+  color: white;
+  font-size: 25px;  
+  margin: auto;
+}
+
+
+#nomeCarta {    
+  background-color: rgb(207, 205, 205);
+  color: #000;  
+  margin: 0; 
+  padding-bottom: 5px;
+  font-size: 28px;
+  font-weight: 900;
+}
+#wrapper #carta-jogador, #wrapper #carta-maquina {
+  width: 280px;
+  height: 360px;
+  }
+
+.imgCarta img {
+    width: 280px;
+    height: 160px;        
+
+}
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio] + label {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  border: 1px solid  rgb(253, 214, 105);
+  border-radius: 5px;
+}
+
+input[type=radio]:hover + label {
+  transition: .5s;
+  background-color: white;
+  border-radius: 5px;
+  color: #000;
+}
+
+input[type=radio]:checked + label { 
+  background-color:  rgb(253, 214, 105);
+  border-radius: 5px;
+  color: #000;
+  
+}
+#placares {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 60%;
+  color: #ffffff;
+}
+.atributos {
+  width: 280px;
+  height: 160px;
+  
+  margin-top: -5px;
+}
+.atributo, .atributoD{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  color: white;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+.atributo {
+  background: rgb(253, 214, 105);
+  padding: 17px ;
+  
+}
+.atributoD {
+  background: rgb(255, 204, 64);
+  padding: 17px ; 
+  
+}
+#resultado {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  margin: auto;  
+  
+}
+
+#resultadoRodada {
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  
+}
+
+footer {  
+  color: white;  
+  font-size: 14px; 
+
+}
+
+footer a{
+  text-decoration: none;  
+  color: white; 
+  margin-left: 10px;
+  margin-right: 10px;
+    
+}
+footer a:hover {
+  transition: .5s;
+  color: rgb(253, 214, 105);
+       
+}
